@@ -10,14 +10,14 @@ if [ "$#" = "1" ]; then
 
 	ports=$(grep -oP ' [\d]{1,6}/' nmap/allports.gnmap | sed 's/\///g' | tr '\n' ',')
 
-	printf "\n[+] Performing targetted port scan\n\n"
+	printf "\n[+] Performing a targetted port scan\n\n"
 
 	nmap -Pn -p"${ports} " -sC -sV -oN nmap/targetted $1
 
 	printf "\n\n [+] Performing an all ports vuln detection scan\n\n"
 	nmap -Pn -p"${ports} " --script vuln -oN nmap/vuln $1
 
-	printf "\n\n[+] Performing UDP vuln scan\n\n"
+	printf "\n\n[+] Performing a UDP vuln scan\n\n"
 	nmap -Pn -p- -sU -sC -sV -oA nmap/udp $1
 else
 	printf "[+] Usage: ./initial.sh <IP-Address>\n"
