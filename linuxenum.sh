@@ -13,7 +13,7 @@ printf "\n${Y}[+]Currently, $USER belongs to the following groups${NC}\n"
 groups
 
 printf "\n\n${Y}[+] Determining the running processes ${NC}\n\n"
-ps aux 2>/dev/null | grep -v -e '\['
+ps aux 2>/dev/null | grep root | grep -v -e '\[\'
 
 printf "\n\n${Y}[+] Determing cron jobs ${NC}\n\n"
 cat /etc/crontab
