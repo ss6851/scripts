@@ -23,11 +23,8 @@ systemctl list-timers --all 2>/dev/null
 
 find / -type d -maxdepth 1 2>/dev/null > /dev/shm/dir; for i in $(cat /dev/shm/dir);do printf "\n\n${Y}[+] Contents of $i ${NC}\n\n";ls -l $i; done
 
-printf "\n\n${Y}[+] Contents of $USER home directory ${NC}\n\n"
-ls -la /home/$USER
-
 printf "\n\n${Y}[+] Files owned by $USER ${NC}\n\n"
-if [ $USER != "root" ] 
+if [[ $USER != "root" ]] 
 then 
 	find / -user $USER -exec ls -l {} \; 2>/dev/null | grep -v sys 
 fi
