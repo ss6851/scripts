@@ -17,6 +17,8 @@ ps aux 2>/dev/null | grep root | grep -v -e '\[\'
 
 printf "\n\n${Y}[+] Determing cron jobs ${NC}\n\n"
 cat /etc/crontab
+printf "\n\n\"
+crontab -l 
 
 printf "\n\n${Y}[+] Determining systemd timers ${NC}\n\n"
 systemctl list-timers --all 2>/dev/null
