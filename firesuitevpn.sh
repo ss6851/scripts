@@ -1,4 +1,7 @@
 #!/usr/bin/bash
+Y='\033[1;33m'
+R='\033[0;31m'
+NC='\033[0m' #No color
 
 pkill -9 openvpn
 pid=$(ps aux | grep http.server | awk '{print $2}' | head -n 1) && kill -9 ${pid}
@@ -25,6 +28,6 @@ then
 	cd /root/thm/${dir}/exploits && python3 -m http.server 80 &
 
 else
-	echo "Wrong input detected. Please try again"
+	echo "${R}Wrong input detected. Please try again ${NC}\n"
 fi
 

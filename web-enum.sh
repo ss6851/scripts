@@ -1,6 +1,7 @@
 ##!/usr/bin/bash
 
 Y='\033[1;33m'
+R='\033[0;31m'
 NC='\033[0m' #No color
 
 if [ "$#" == "2" ]; then
@@ -16,5 +17,5 @@ if [ "$#" == "2" ]; then
 	printf "\n\n${Y}[+] Performing normal dir scan on port $2 ${NC}\n\n"
 	gobuster -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt dir -u http://$1:$2 -o www-enum/gobuster$2.dir.out
 else
-	printf "[${Y}[+] Usage: /opt/script/./web-enum.sh <IP-Address> <Port Number>${NC}\n"
+	printf "[${R}[+] Usage: /opt/script/./web-enum.sh <IP-Address> <Port Number>${NC}\n"
 fi
