@@ -3,6 +3,8 @@ Y='\033[1;33m'
 R='\033[0;31m'
 NC='\033[0m' #No color
 
+pkill -9 python3 && cd /opt && python3 -m http.server 9316 &
+
 pkill -9 openvpn
 pid=$(ps aux | grep http.server | awk '{print $2}' | head -n 1) && kill -9 ${pid}
 clear
