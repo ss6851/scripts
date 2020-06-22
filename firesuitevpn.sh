@@ -3,10 +3,8 @@ Y='\033[1;33m'
 R='\033[0;31m'
 NC='\033[0m' #No color
 
+#Kill previous python3 web servers and start a new process
 pkill -9 python3 && cd /opt && python3 -m http.server 9316 &
-
-pkill -9 openvpn
-pid=$(ps aux | grep http.server | awk '{print $2}' | head -n 1) && kill -9 ${pid}
 clear
 
 echo Enter the VPN name: htb, vhl, thm
@@ -17,6 +15,7 @@ read dir
 
 if [[ ${vpn} == "htb" ]]
 then
+	#Checks if there's a previous vpn process. If yes, then kills it.
 	thmvpn_pid=$(ps aux | grep ss6851.ovpn | awk '{print $2}' | head -n 1) && kill -9 ${thmvpn_pid}
 	openvpn /opt/vpn/ss2016.ovpn &
 	mkdir -p /root/htb/${dir}/exploits
@@ -24,6 +23,7 @@ then
 
 elif [[ ${vpn} == "thm"  ]]
 then 
+	#Checks if there's a previous vpn process. If yes, then kills it.
 	htbvpn_pid=$(ps aux | grep ss2016.ovpn | awk '{print $2}' | head -n 1) && kill -9 ${htbvpn_pid}
 	openvpn /opt/vpn/ss6851.ovpn &
 	mkdir -p /root/thm/${dir}/exploits
