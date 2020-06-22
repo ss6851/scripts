@@ -20,7 +20,7 @@ if [ "$#" = "1" ]; then
 
 	printf "\n\n ${Y}[+] Performing SMB enumeration with -${NC}"
 	for i in ${ports};do
-        if [[  $i == "139," ]] || [[ $i == "445," ]]
+        if [[  $i == "445," ]]
         	then
         		printf "\n\n${Y} [+][+] smbclient ${NC}\n\n" 
 			echo "" | smbclient -L \\$1 || echo "" | smbclient --port=139 -L \\$1;
@@ -40,5 +40,5 @@ if [ "$#" = "1" ]; then
 	printf "\n\n ${Y}[+] Performing a UDP vuln scan ${NC}\n\n"
 	nmap -Pn -vvv -sU -oN nmap/udp.nmap $1
 else
-	printf "${R}[+] Usage: ./initial.sh <IP-Address>\n"
+	printf "${R}[+] Usage: ./initial.sh <IP-Address> ${NC}\n"
 fi
