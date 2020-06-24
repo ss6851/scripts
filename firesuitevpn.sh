@@ -36,3 +36,5 @@ else
 	echo "${R}Wrong input detected. Please try again ${NC}\n"
 fi
 
+sleep 5s
+clear
