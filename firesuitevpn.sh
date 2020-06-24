@@ -4,8 +4,10 @@ R='\033[0;31m'
 NC='\033[0m' #No color
 
 #Kill previous python3 web servers and start a new process
+clear
 pkill -9 python3
 cd /opt && python3 -m http.server 9316 &
+sleep 3s
 clear
 
 echo Enter the VPN name: htb, vhl, thm
