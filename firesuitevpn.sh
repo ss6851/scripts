@@ -6,10 +6,10 @@ NC='\033[0m' #No color
 #Kill previous python3 web servers and start a new process
 clear
 pkill -9 python3
-sleep 1s && clear
+sleep 2s && clear
 #smb_pid=$(ps aux | grep smbserver.py | awk '{print $2}' | head -n 1) && kill -9 ${smb_pid}
 cd /opt && python3 -m http.server 9316 &
-sleep 1s && clear && impacket-smbserver tools /opt/priv-esc/Windows &
+sleep 2s && clear && impacket-smbserver tools /opt/priv-esc/Windows &
 sleep 2s && clear
 
 echo Enter the VPN name: htb, vhl, thm
