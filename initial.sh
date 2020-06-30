@@ -18,7 +18,7 @@ if [ "$#" = "1" ]; then
 
 	nmap -Pn -p"${ports}" -sC -sV -oN nmap/targetted.nmap $1
 
-	printf "\n\n${Y}[+] Performing SMB enumeration with :${NC}"
+	printf "\n\n${Y}[+] Performing SMB enumeration with:${NC}"
 	for i in ${ports};do
         if [[  $i == "445," ]]
         	then
