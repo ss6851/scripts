@@ -20,9 +20,6 @@ cat /etc/crontab
 printf "\n\n"
 crontab -l 
 
-printf "\n\n${Y}[+] Determining systemd timers ${NC}\n\n"
-#systemctl list-timers --all 2>/dev/null
-
 find / -type d -maxdepth 1 2>/dev/null > /dev/shm/dir; for i in $(cat /dev/shm/dir);do printf "\n\n${Y}[+] Contents of $i ${NC}\n\n";ls -l $i; done
 
 printf "\n\n${Y}[+] Files owned by $USER ${NC}\n\n"
@@ -37,5 +34,9 @@ find / -perm -4000 2>/dev/null
 printf "\n\n${Y}[+] Determining the listening ports ${NC}\n\n"
 netstat -alnp | grep LIST
 
+printf "\n\n${Y}[+] Determine systemd timers with: ${NC}systemctl list-timers --all 2>/dev/null\n\n"
+
+
 printf "\n\n${Y}[+] Checking sudo permissions on $USER ${NC}\n"
 sudo -l
+
