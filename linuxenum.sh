@@ -17,7 +17,7 @@ ps aux 2>/dev/null | grep root | grep -v -e '\[\'
 
 printf "\n\n${Y}[+] Determing cron jobs ${NC}\n\n"
 cat /etc/crontab
-printf "\n\n\"
+printf "\n\n"
 crontab -l 
 
 printf "\n\n${Y}[+] Determining systemd timers ${NC}\n\n"
@@ -37,5 +37,5 @@ find / -perm -4000 2>/dev/null
 printf "\n\n${Y}[+] Determining the listening ports ${NC}\n\n"
 netstat -alnp | grep LIST
 
-printf "\n\n${Y}[+] Checking sudo permissions on $USER ${NC}\n\n"
+printf "\n\n${Y}[+] Checking sudo permissions on $USER ${NC}\n"
 sudo -l
