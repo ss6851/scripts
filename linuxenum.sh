@@ -13,7 +13,7 @@ printf "\n${Y}[+]Currently, $USER belongs to the following groups${NC}\n"
 groups
 
 printf "\n\n${Y}[+] Determining the running processes ${NC}\n\n"
-ps aux 2>/dev/null | grep root | grep -v -e '\[\'
+ps aux 2>/dev/null | grep root | grep -v -e '\['
 
 printf "\n\n${Y}[+] Determing cron jobs ${NC}\n\n"
 cat /etc/crontab
@@ -21,7 +21,7 @@ printf "\n\n"
 crontab -l 
 
 printf "\n\n${Y}[+] Determining systemd timers ${NC}\n\n"
-systemctl list-timers --all 2>/dev/null
+#systemctl list-timers --all 2>/dev/null
 
 find / -type d -maxdepth 1 2>/dev/null > /dev/shm/dir; for i in $(cat /dev/shm/dir);do printf "\n\n${Y}[+] Contents of $i ${NC}\n\n";ls -l $i; done
 
