@@ -1,0 +1,230 @@
+CIA Concepts:
+The CIA (Confidentiality, Integrity, Availability) can indeed assist in succeeding in a Certified Information Systems Security Professional (CISSP) certification.
+When creating a company, there are various assets including physical facilities, computer equipment, data, and personnel. The greatest assets are people and the company's secrets, data, and information.
+Data security is crucial. Confidentiality is one aspect of this, meaning only authorized people have access to the data. This can be achieved through encryption, both for data on disk and for data transmitted across a network.
+Integrity of the data is another key aspect. This means ensuring the data isn't manipulated by unauthorized parties, whether it's at rest on a disk or in transit over a network.
+Availability, the third part of the CIA, is also critical. It ensures that authorized individuals can access the data when needed, safeguarding against denial of service attacks and other potential disruptions.
+CISSP security objectives are centered around the CIA - Confidentiality, Integrity, and Availability.
+Awareness of the three principles is vital in a certification exam environment, which could include questions on IPsec (Internet Protocol Security), hashing, multi-factor authentication, and fault-tolerant disk subsystems, among others.
+All of these technologies are important for data security, but the focus of the question might be on confidentiality, integrity, or availability, requiring a context-based response.
+The CISSP exam often presents multiple good choices, but the best choice will depend on the specifics of the question, or the "flavor" or intent of the question.
+Understanding the CIA principles (confidentiality, data integrity, and availability) will be key in identifying the correct answers and succeeding in the CISSP certification exam.
+
+Cyber Crime Terms and Vocabulary:
+Cybersecurity is not about preventing all attacks, but rather about preparing for inevitable attempts to compromise security.
+Cyber threat actors, individuals or organizations attempting to compromise systems, can take several forms:
+Black hat hackers: these individuals unlawfully compromise security systems.
+White hat hackers: these individuals are usually professionals hired by organizations to test and strengthen security measures.
+Gray hat hackers: these individuals fall somewhere between black and white hat hackers, often breaching security systems without malicious intent or sometimes even to identify and report vulnerabilities.
+Suicide hackers: these individuals hack for a cause and are indifferent to their personal safety.
+Hacktivists: these individuals hack to spread a particular message or promote a cause.
+Script kiddies: these individuals, often unskilled, use existing scripts, programs, and applications to launch attacks.
+Cyber terrorists: these individuals use cyber activities to cause terror.
+State-sponsored hackers: these are hackers backed by a state or a government entity.
+A computer crime is any crime involving a computer, either as a tool to facilitate the crime or as the target of the crime.
+Cybercrime is a broader category representing crimes using the internet, any computer system, or computer network or technology.
+A crime is generally characterized by unauthorized access or use of a system or access to information that should not be accessed.
+Laws and acts such as the Electronic Communications Privacy Act (1986), Computer Fraud and Abuse Act (1984), National Information Infrastructure Protection Act (1996), and the Wiretap Act regulate cybercrime in the US.
+When a security breach occurs, the company should have an incident handling process in place, seek legal counsel, and report the breach to the appropriate authority.
+Law enforcement's job is to catch and prosecute criminals, but damage control and recovery from the breach lie with the organization. In severe cases, the organization may need to implement a disaster recovery plan or a business continuity plan.
+
+2700 Series Framework:
+ISO/IEC 27001 and 27002 are standards documents that provide guidelines and specifications for developing and implementing a secure information security management system (ISMS).
+ISO/IEC 27001 provides a broad overview or the "big picture" of what needs to be done but doesn't delve into specific procedures or details of implementing the security.
+ISO/IEC 27002 gives more specific, detailed instructions for implementing the security measures outlined in ISO/IEC 27001. It goes into specifics on controls that might be used.
+The ISO/IEC 27001 contains an annex for reference control objectives and controls. For more details on these controls, ISO/IEC 27002 can be referred to.
+ISO stands for the International Organization for Standardization, and IEC stands for the International Electrotechnical Commission. Both these organizations are responsible for ISO/IEC 27001 and 27002.
+ISO/IEC 27002 has detailed sections on various aspects of information security, such as human resource security, asset management, access control, cryptography, and physical and environmental security.
+An example of the difference in detail between the two standards might be: ISO/IEC 27001 might suggest that auditing is a good idea, while ISO/IEC 27002 would provide specifics, like auditing individual user accounts periodically to ensure they have appropriate rights.
+Both ISO/IEC 27001 and 27002 are needed for a comprehensive approach to information security management, and neither can be used effectively without management input. Decisions made should not only adhere to good security principles but should also align with the business requirements and objectives set by the organization's leadership.
+
+
+Due care and Due Dilligence:
+Senior management could face prosecution in both criminal and civil courts if they fail to uphold required standards. Criminal charges imply law-breaking, while civil charges suggest causing harm to another party.
+Legislation such as HIPAA identifies due care - the minimum responsibilities for data protection. If specific legislation isn't in place, companies still have a duty of care.
+Senior officers failing to uphold standards or claim ignorance of important regulations can face accountability due to their lack of due diligence.
+Companies need to protect trade secrets - proprietary information key to their success. Employees usually sign a Non-disclosure Agreement (NDA) to ensure the secrets remain confidential.
+Intellectual property laws cover trade secrets, patents, trademarks, and copyrights.
+A software license gives users the right to use a piece of software, but it does not confer ownership. Illegal usage, or piracy, infringes on intellectual property rights.
+Reverse engineering, where someone deconstructs software to recreate a product, is also a threat to a company's intellectual property.
+Not all countries respect and enforce intellectual property laws, leading to the establishment of "data havens." These places could store and distribute data globally without regard for copyright laws.
+Companies often collaborate in a concept called "coopetition," where they may have shared or interconnected systems despite offering similar products.
+If a virus breaks out in one company and spreads to the interconnected system of another, the infected company may face "downstream liability" for the harm caused to the other.
+Downstream liability refers to the liability faced by a company for the harm caused to another entity due to its negligence, even if there's no direct ownership or employment relationship.
+
+Inside threats and Ethics:
+- The greatest risks in systems often come from personnel, not external actors.
+- Risks from personnel can be mitigated by security awareness training and by having clear procedures for incident handling.
+- Security breaches often stem from the human factor.
+- There's a wide range of hackers, some of whom might simply be interested in learning more about a system.
+- There are many freely available tools that can be used for hacking, including those in BackTrack and Kali Linux.
+- These tools can be used for things like penetration testing, which involves testing your own system's security posture and countermeasures.
+- The dangers of a disgruntled employee who is also a hacker are highlighted. Such an individual could potentially use their access and hacking tools to breach the system.
+- The term "cracker" is introduced to refer to someone whose sole intention is to break into a system.
+- Hackers can be classified into white hat, black hat, and grey hat categories, with white hat hackers being those who test systems with proper authorization.
+- As a CISSP, one agrees to adhere to the Code of Ethics, which involves staying in the white hat category.
+- In situations where the CISSP Code of Ethics is higher than company ethics, the higher standard should be followed.
+- CISSP candidates are urged to read the Code of Ethics from ISCC and understand its implications for stakeholders.
+- Security vulnerabilities should be reported immediately as part of a well-defined incident handling process.
+
+Policies Start with Senior Management:
+Information security policies are created by senior management and implemented through individual procedures.
+Senior management is responsible for the data within the company and is considered the data owner.
+The Chief Security Officer (CSO), who reports to the CEO, may lead the project for an information security policy.
+Senior management does not involve itself in procedures, but it does define critical assets and their value for the company.
+Critical data is classified according to its sensitivity, and this classification guides how it should be protected.
+Senior management also identifies critical applications which, if they fail, could significantly impact the business.
+Regulatory policies such as HIPAA or SOCS compliance may also be identified by senior management.
+The company's data might be classified into four levels: high, medium, low, and unclassified.
+The level of protection applied to data depends on its sensitivity level, with higher sensitivity data receiving more protection.
+Security objectives are set to support the business objective.
+Other critical assets and resources in the company may also be identified and protected accordingly.
+Confidentiality, data integrity, and availability are prioritized for items marked as high or critical.
+A balance between the cost of protection and the impact of loss is maintained. For instance, a million-dollar protection system would not be used for a $50,000 risk.
+Legal requirements for protecting certain data may also be considered.
+It is crucial that senior management stays informed about systems and potential risks, especially when new systems are being developed. Security should be considered during the design phase, not as an afterthought.
+
+Defining Risk: 
+One of the main challenges for senior management is understanding the risk related to different components within their enterprise network.
+Vulnerability is a weakness in a system that can be exploited. An example would be a known bug in an operating system.
+A threat is the danger of someone exploiting a vulnerability.
+Risk refers to the likelihood of a threat exploiting a vulnerability and the associated impact if it happens.
+The impact of risk can take many forms, including loss of revenue, public trust, and legal issues.
+Exposure refers to the potential loss if a risk becomes a reality.
+To mitigate risks, vulnerabilities need to be identified and controlled. If the exposure is high, investing in technical or logical controls may be necessary.
+There are two main approaches to risk analysis: quantitative and qualitative.
+Quantitative analysis is based on hard numbers and evidence. For example, calculating the cost of replacing a computer that breaks twice a year.
+Qualitative analysis, on the other hand, relies on expert opinions and scenario walkthroughs. It's more subjective and based on perceptions of possible outcomes.
+Penetration testing can be used to determine a system's vulnerability. This involves testing a system to find and secure vulnerabilities.
+The rules and objectives of penetration testing need to be clearly identified by management. This can include guidelines about not modifying or manipulating data even when vulnerabilities are found.
+Penetration testing can also be used to test the effectiveness of existing countermeasures.
+
+Control Types:
+In order to reduce the entire risk to a business, one extreme option is to close the business, but this forfeits the generation of revenue.
+Instead, businesses manage their risk by implementing appropriate countermeasures to minimize risk while continuing operations.
+Data classification is a critical aspect of managing risk; information that was sensitive and critical years ago might now be common knowledge or public, and it should be reclassified to reduce the cost and effort of maintaining high-level security.
+It's necessary to have a policy in place for regular review and reclassification of data.
+The rule of least privilege should be implemented, which allows users and systems only the minimum privileges they need to do their jobs, thus reducing the exposure of systems to potential threats.
+Role-based access control is another good practice; this involves grouping users into roles or groups (subjects), and assigning these groups the necessary rights and privileges.
+Objects, like a section of the file system, can also be grouped and access given to subjects as per their roles.
+Access control mechanisms like smart cards, token generators, biometrics, passwords, access control lists, and encryption can be used to maintain confidentiality and control over data.
+Administrative controls such as policies, standards, guidelines, and security awareness training are equally important in managing risks.
+Physical controls, like guards, locked doors, or fences, protect the physical security of the systems.
+There are further categories of controls based on their functionality: deterrent controls that discourage potential attackers, preventative controls that stop attacks, detective controls that make us aware of attacks, and corrective controls that restore services after an attack.
+These controls can fall under the administrative, technical, and physical categories, and provide various functionalities depending on the context.
+
+
+Compliance Requirements:
+The video discusses the challenges faced by IT professionals in securing a network and the associated software based on vague directives from senior management.
+It highlights the improbability of accurately securing all aspects of the network and software based solely on a brief statement.
+Various regulatory compliance requirements may guide IT professionals in implementing necessary security measures, especially when sensitive data like credit card information is involved.
+Numerous organizations must adhere to laws, regulations, and compliance requirements, which dictate specific actions for protecting and reporting incidents related to sensitive or private data.
+Examples of such regulations include the Sarbanes-Oxley Act (SOX), the Health Insurance Portability and Accountability Act (HIPAA), and the Payment Card Industry Data Security Standard (PCI DSS).
+Certain standards require specific security actions, such as not sending sensitive information in clear text over the network. Instead, HTTPS with TLS or SSL should be used in conjunction with digital certificates signed by a trusted Certificate Authority (CA).
+Proper code review and best practices should be employed during the software development lifecycle to prevent misuse or abuse of application features, such as cookies.
+The selection of security controls can depend on regulatory requirements, organizational parameters, and desired outcomes.
+Controls can serve one or more purposes and are categorized into types such as deterrent, detection, preventive, corrective, and compensative. Some controls can serve multiple purposes.
+Examples of deterrent controls include physical barriers like fences. While they might not prevent all unauthorized access, they can reduce the likelihood of an attempted breach.
+Three types of controls can be utilized: physical (fences, man traps, doors, locks, security guards), logical or technical (access control lists, intrusion detection systems, separate logical networks), and administrative.
+Administrative controls include strategies such as separation of duties to prevent fraudulent activities. This could mean one person creates a purchase order, and another person authorizes payment.
+Other administrative controls could involve conducting background checks and ensuring company-wide security awareness training.
+With a clear understanding of regulatory compliance requirements and the types of controls that should be implemented, IT professionals can more accurately respond to directives from senior management to secure the network and software.
+
+DR, BC, BIA:
+The video recounts an earthquake incident in the 90s at Blue Cross of California, emphasizing the importance of disaster recovery and business continuity plans.
+Disaster recovery (DR) and business continuity (BC) plans are crucial for organizations to ensure their survival in the event of unexpected disasters. They are necessary for businesses and governments that want to stay operational and continue generating revenue.
+A disaster recovery plan (DRP) is implemented when a disaster strikes, such as an earthquake destroying a building. It would likely involve moving to a different facility.
+A business continuity plan (BCP) is a long-term plan that ensures the organization can still serve its customers while operating from a temporary facility after a disaster.
+A successful DRP and BCP require a policy statement from management. If senior management doesn't show interest, it's unlikely that the underlying managers will build one.
+A company is responsible for its shareholders, just as a government is responsible for its citizens. Both types of organizations need a DRP and BCP.
+After management's approval, the first step is to create a business impact analysis (BIA).
+A BIA aims to identify all critical systems and their tolerance for outage times. This process will also examine the costs, financial and customer-related, that would result from a system being down for a certain period.
+The BIA looks at regulatory requirements, which still apply even if the organization has moved to a new or temporary facility.
+The BIA also identifies dependencies on other systems. For instance, if system B relies on system A to function, system A becomes a critical dependency that must be considered in the BIA.
+The BIA also identifies critical applications that the company uses and potential risks.
+As part of a BIA, a vulnerability analysis is often conducted to understand the impact of a destructive or disruptive event.
+A critical path analysis might be used in the BIA to consider all system dependencies and how they fit together.
+The process involves senior business unit managers from each department who understand their systems, ensuring that all critical systems and dependencies are identified.
+A significant part of a BIA is risk management. If there's no risk involved and no potential loss from a system being down for a certain period, less time and resources need to be allocated to building a DRP and BCP.
+
+Security Awareness Training:
+The video discusses the importance of security awareness training as a significant countermeasure for access violations in data security.
+Employees like Bob need to understand the implications and consequences of accessing and handling data beyond their authorized level.
+The video stresses the importance of employees being aware that their activities in the system are tracked to ensure accountability.
+It discusses scenarios where data confidentiality could be at risk. For example, if Lois, an employee, has confidential data on her laptop, what would happen if someone like Bob accesses it?
+To maintain data confidentiality, techniques such as data encryption can be used. Upon booting up the device, Lois would have to input authentication information, possibly through multi-factor authentication, which authorizes the decryption of the data for her to work with it.
+Employees are advised not to use plain text protocols for any sensitive information, whether it's their credentials or level four or five data.
+In public locations, connecting to public Wi-Fi with a device containing confidential data is not recommended due to the potential for data breaches.
+In emergencies where connection to public Wi-Fi is necessary, a Virtual Private Network (VPN) using SSL or IPsec should be set up, providing an encrypted session from the device to the VPN server, thus securing any sensitive information sent across the network.
+Regular security awareness training should also include information about social engineering attacks, which are often a significant weak point in any security system.
+The video gives the example of 'shoulder surfing', where someone might look over an employee's shoulder to steal login credentials or sensitive information, emphasizing that this can happen in any environment, not just at work.
+Employees should also be trained on proper data disposal methods after they are done with it, such as shredding a CD that contained confidential data. The video also humorously mentions microwaving the CD before shredding it but does not recommend this as a standard practice.
+Security awareness training should cover all these aspects, be reinforced annually, and require employees to sign off to confirm their understanding and willingness to abide by the practices.
+
+Intellectual Property and Licensing:
+The video discusses the importance of protecting a brand or a business that you've invested significant time, energy, and money into developing.
+Trademarks can be used to protect recognizable names, icons, shapes, sounds, or combinations thereof, which represent a brand, product, service, or company. A registered trademark is represented by the "R" in a circle symbol, while an unregistered trademark is represented by "TM".
+An example of trademark infringement is given, where a company has made a logo that looks similar to Adidas's logo to mislead consumers.
+Along with trademarks, service marks (represented by "SM") can also be used to protect the brand.
+Companies can protect their proprietary inventions by obtaining patents. A patent would provide protection against competitors copying and selling the product for less.
+Licensing is another aspect of intellectual property protection, particularly for software products. A company can license the use of their software or product to others, and the terms of usage are typically controlled by an end user license agreement (EULA).
+Copyrights control the expression of an idea, such as a piece of music or a play. This gives the creator control over how the content can be expressed.
+Trade secrets are another form of intellectual property protection, which are best for secrets that cannot be patented without revealing the method or technique. Non-disclosure agreements (NDAs) can be used to ensure anyone who works with or for the company keeps the trade secrets confidential.
+Creating tools and methods intended to bypass legal licensing of software, such as key generators, is illegal. Piracy and the illegal use and distribution of software are also illegal.
+The Digital Millennium Copyright Act helps enforce copyright and licensing rules to protect creators, owners, and authors of software, media, and intellectual property.
+In cases of licensing violations, reporting mechanisms exist, such as www.bsa.org, the Software Alliance (not the Boy Scouts of America).
+The video concludes by summarizing the various intellectual property concepts and licensing mechanisms discussed, and emphasizing their importance for protecting a brand or a business.
+Policy Life Cycle:
+The concept of a lifecycle for securing networks, systems, and data integrity is beneficial as it provides a sense of movement.
+The lifecycle begins with policy development by senior management or the board of directors who have the ultimate responsibility for creating a policy.
+The policy involves high-level statements outlining rules, regulations, and expectations for the system.
+The policy must take into account any legal requirements or regulations pertaining to the type of business, for instance, handling credit cards (PCI), medical information, or personally identifiable information.
+After the policy is developed, it is published and communicated to all individuals and entities that need to implement the policy.
+The next phase is adoption, which not only involves implementing the policy but also establishing metrics and controls to monitor its implementation and desired results.
+Regular review of the policy allows for feedback and adjustments to ensure that it's doing what it was intended to do. Policies that are no longer needed can be retired.
+For a policy to be successful:
+It must be endorsed, authorized, and funded by the highest level of management.
+It needs to be relevant and focus on the business and data worked within the organization.
+It has to be realistic and attainable.
+It should be adaptable or flexible to accommodate changes required to meet the policy's goals.
+It should be enforceable with procedures to measure its effectiveness and compliance with standards (such as PCI DSS or HIPAA).
+Procedures often accompany policies to provide step-by-step instructions on implementation.
+These procedures can be presented in various ways, including graphical representations or flow charts.
+Supporting documents, such as guidelines, can provide additional instructions for implementing standards.
+Roles such as the information security officer and compliance officer help verify correct security implementation and adherence to laws and regulations.
+The lifecycle concludes with a review of the policy's effectiveness and an opportunity to make necessary changes.
+
+Threat Modeling:
+Implementing due diligence, doing research, and ensuring system safety often involves threat modeling. This process identifies potential vulnerabilities and sets countermeasures in place to prevent their exploitation.
+Threat modeling can take several different approaches:
+From the perspective of the attacker: This could be an external or internal attacker. The focus is on the attacker's goals, abilities, and possible actions concerning our data and systems.
+From an architecture perspective: This entails evaluating all network elements (web servers, email servers, printers, laptops, wireless devices, routers, switches, infrastructure, internal servers) individually, identifying their vulnerabilities, and mitigating these risks with appropriate countermeasures.
+Focusing on the assets: This involves identifying critical data and assessing the motivation of a potential hacker to compromise these resources.
+In most organizations, all three perspectives are considered in threat modeling - attacker, asset, and architecture. This includes considering the attacker's motivation, the difficulty of attacking, detection methods, and resilience to an attack.
+The organization may discover artifacts (indications) of an attack after it has occurred (Indicator of Compromise - IOC) or as it is occurring but not yet successful (Indicator of Attack - IOA). Identifying an attack before or as it's happening is preferable.
+Many organizations utilize cloud-based threat intelligence services from vendors like Palo Alto, Check Point, and Cisco. These services use data from the internet and other companies to update perimeter devices and preemptively strike against new attacks or attacks from known malicious sources.
+Threat intelligence doesn't only apply to IP addresses. It can also provide updates on new attacks continually being discovered, offering better protection and increased resiliency.
+Open Source Intelligence (OSINT) offers another data source, pulling information from public sources.
+Information Sharing and Analysis Centers (ISACs) provide a way to get a head start on potential threats, allowing organizations to protect against these threats before they reach network borders.
+Real-time threat maps, like those provided by Kaspersky Labs, consolidate data from multiple sources to give a comprehensive picture of ongoing threats.
+By using threat intelligence, multiple devices can benefit from information about specific attacks they have not yet experienced, making them better prepared to mitigate and resist these types of attacks.
+
+Supply Chain Risk Management:
+The speakers are planning to start an electric car business. They acknowledge that managing the risk of supply chain components is crucial to ensure on-time delivery of the final product.
+The supply chain could be a mixture of in-house, outsourced, on-site, and off-site components. Regardless of the location, there is a dependency on the supply chain to deliver the final product.
+A potential risk is a disruption or failure in the supply chain. This could lead to the inability to deliver the final product, unless there is a business continuity or backup plan in place.
+For example, they plan to install a small gas-powered generator from a third party, Engines 'R' Us, in the electric cars. If Engines 'R' Us uses a third party, this creates additional supply chain layers and dependencies.
+To prevent disruption in the supply chain, several measures can be taken:
+Clear identification and documentation of outsourced components and suppliers.
+Consideration of risks and formulation of a backup plan, taking into account various scenarios like company failure, labor strikes, third-party dependencies, etc.
+Conducting a business impact analysis to understand what happens if vendors fail, and accordingly work out business continuity plans, backup plans, and contingency plans.
+Ensuring solid supply chains by doing due diligence while selecting vendors, and having the right contracts in place, such as nondisclosure agreements and service-level agreements.
+Vendor selection should take into account quality management systems and security at the vendor's location. Choosing vendors following certain standards like ISO 9001 for quality and ISO 27001 for information security could be beneficial.
+Verifying compliance with these standards might involve a third-party audit, generating service organization controls (SOCs) reports. Auditing standards, such as SSAE standards, ensure everyone is maintaining the agreed-upon controls.
+Monitoring and maintaining relationships with vendors is essential to proactively identify any upcoming problems and avoid last-minute surprises that could impact the business.
+
+
+
+
+
+
