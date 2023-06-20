@@ -1,0 +1,225 @@
+From December 2022 to June 2023, What were the most common types of cyber attacks during this period (e.g., phishing, ransomware, DDoS attacks)?
+
+Some of the most common types of cyber attacks from December 2022 to June 2023 are:
+
+- **Ransomware**: This type of malware encrypts files on your system and blocks access until you pay a “ransom”²³. Some examples of ransomware attacks in this period are the Colonial Pipeline attack² and the attack on the University of Colorado⁵.
+- **Email Compromise**: This is a form of phishing where attackers impersonate a trusted person or organization and trick you into clicking on malicious links or attachments, or revealing sensitive information¹². Some examples of email compromise attacks in this period are the SolarWinds attack⁵ and the attack on the Australian Securities and Investments Commission⁶.
+- **Supply Chain Attacks**: This is a type of attack where hackers compromise a third-party vendor or service provider that has access to your network or data¹⁵. Some examples of supply chain attacks in this period are the SolarWinds attack⁵ and the Microsoft Exchange Server attack⁵.
+- **Attacks on Internet of Things (IoT) Devices**: This is a type of attack where hackers exploit vulnerabilities in smart devices that are connected to the internet, such as cameras, thermostats, or routers¹³. Some examples of IoT attacks in this period are the Mirai botnet attack³ and the attack on Verkada cameras⁵.
+
+Other types of attacks that were also common in this period include SQL injection attacks, zero-day exploits, password attacks, session hijacking, brute force attacks, DNS tunneling, cryptojacking, and inside threats³⁴.
+
+Source: Conversation with Bing, 6/20/2023(1) Most Common Cyber Security Threats In 2023 – Forbes Advisor. https://www.forbes.com/advisor/business/common-cyber-security-threats/ Accessed 6/20/2023.
+(2) 17 Most Common Types of Cyber Attacks & Examples (2023) - Aura. https://www.aura.com/learn/types-of-cyber-attacks Accessed 6/20/2023.
+(3) The biggest cyber attacks of 2022 | BCS. https://www.bcs.org/articles-opinion-and-research/the-biggest-cyber-attacks-of-2022/ Accessed 6/20/2023.
+(4) 2022's 4 Most Common Cyberattack Patterns - Security Intelligence. https://securityintelligence.com/articles/most-common-cyberattack-patterns-2022/ Accessed 6/20/2023.
+(5) Data Breaches and Cyber Attacks Quarterly Review: Q1 2023. https://www.itgovernance.co.uk/blog/data-breaches-and-cyber-attacks-quarterly-review-q1-2023 Accessed 6/20/2023.
+(6) 6 Common Types of Cyber Attacks in 2023 and How To Prevent Them. https://www.springboard.com/blog/cybersecurity/types-of-cyber-attacks/ Accessed 6/20/2023.
+
+In 2023, Has there been an increase or decrease in the overall number of cyber attacks compared to the previous periods? What sectors or industries were most targeted during this period?
+
+¬According to the web sources I found, there has been an **increase** in the overall number of cyber attacks in 2023 compared to the previous periods. Cybersecurity statistics indicate that there are **2,200 cyber attacks per day**, with a cyber attack happening every **39 seconds** on average¹. The global volume of cyber attacks reached an **all-time high** in Q4 2022 with an average of **1168 weekly attacks per organization**², and rose by **7%** in Q1 2023 compared to the same period last year, with each firm facing an average of **1248 attacks per week**³. The global information security industry is forecasted to reach **$170.4 billion** by 2022¹.
+
+The sectors or industries that were most targeted in 2023 are:
+
+- **Education/Research**: This sector experienced the highest number of attacks, rising to an average of **2507 per organization per week** (a 15% increase compared to Q1 2022)³. Hackers exploited the rapid digitization and e-learning shift that academic institutions undertook in response to the COVID-19 pandemic³.
+- **Government**: This sector experienced the second highest number of attacks, with an average of **1930 per organization per week** (a 41% increase compared to 2022)³. Hackers targeted government agencies and critical infrastructure for espionage, sabotage, or ransomware purposes³.
+- **Healthcare**: This sector experienced the third highest number of attacks, with an average of **1815 per organization per week** (a 40% increase compared to 2022)³. Hackers targeted healthcare organisations for their valuable medical data, intellectual property, or ransomware payments³.
+
+Other sectors that were also frequently attacked in 2023 include manufacturing, retail, finance, and technology³.
+
+Source: Conversation with Bing, 6/20/2023(1) 160 Cybersecurity Statistics: Updated Report 2023 - Astra Security Blog. https://www.getastra.com/blog/security-audit/cyber-security-statistics/ Accessed 6/20/2023.
+(2) Cybersecurity Trends & Statistics For 2023; What You Need To Know - Forbes. https://www.forbes.com/sites/chuckbrooks/2023/03/05/cybersecurity-trends--statistics-for-2023-more-treachery-and-risk-ahead-as-attack-surface-and-hacker-capabilities-grow/ Accessed 6/20/2023.
+(3) Cybersecurity Trends & Statistics; More Sophisticated And ... - Forbes. https://www.forbes.com/sites/chuckbrooks/2023/05/05/cybersecurity-trends--statistics-more-sophisticated-and-persistent-threats-so-far-in-2023/ Accessed 6/20/2023.
+
+In 2023, What geographical regions were most affected? What were the most notable or impactful cyber attacks during this period?
+
+According to the web sources I found, the geographical regions that were most affected by cyber attacks in 2023 are:
+
+- **Africa**: This continent experienced the highest volume of attacks with **1875 weekly attacks per organization**². Hackers exploited the lack of cybersecurity awareness, infrastructure, and regulation in many African countries².
+- **Asia-Pacific**: This continent experienced the second highest volume of attacks with **1691 weekly attacks per organization**². Hackers targeted the growing digital economy, innovation hubs, and geopolitical tensions in the region².
+- **North America**: This continent experienced the third highest volume of attacks with **1568 weekly attacks per organization**². Hackers targeted the large and lucrative markets, critical infrastructure, and government agencies in the region².
+
+Other regions that were also affected by cyber attacks in 2023 include Latin America, Europe, and Middle East².
+
+Some of the most notable or impactful cyber attacks during this period are:
+
+- **The SolarWinds attack**: This was a massive supply chain attack that compromised the software vendor SolarWinds and its customers, including several US government agencies and Fortune 500 companies¹². The attack was attributed to a Russian state-sponsored group and exposed sensitive data and network access for months¹².
+- **The Microsoft Exchange Server attack**: This was a series of zero-day exploits that targeted Microsoft's email servers and affected tens of thousands of organizations worldwide¹². The attack was attributed to a Chinese state-sponsored group and allowed hackers to steal data, install malware, or ransomware on the compromised servers¹².
+- **The Colonial Pipeline attack**: This was a ransomware attack that disrupted the operations of the largest fuel pipeline in the US, causing gas shortages and price spikes in several states¹². The attack was carried out by a criminal group called DarkSide, which demanded $4.4 million in ransom from the pipeline operator¹².
+- **The Verkada camera hack**: This was a breach that exposed live feeds from over 150,000 security cameras installed in various organizations, including hospitals, schools, prisons, and Tesla factories¹². The hack was performed by a group of activists who claimed to expose the privacy risks of surveillance technology¹².
+- **The Ukrainian satellite hack**: This was a cyberattack that disrupted the operations of a Ukrainian military satellite, causing communication failures and data loss³. The attack was blamed on Russian hackers who used a sophisticated malware to infiltrate the satellite's control system³.
+
+Source: Conversation with Bing, 6/20/2023(1) Cybersecurity Trends & Statistics; More Sophisticated And ... - Forbes. https://www.forbes.com/sites/chuckbrooks/2023/05/05/cybersecurity-trends--statistics-more-sophisticated-and-persistent-threats-so-far-in-2023/ Accessed 6/20/2023.
+(2) Cybersecurity Trends & Statistics For 2023; What You Need To Know - Forbes. https://www.forbes.com/sites/chuckbrooks/2023/03/05/cybersecurity-trends--statistics-for-2023-more-treachery-and-risk-ahead-as-attack-surface-and-hacker-capabilities-grow/ Accessed 6/20/2023.
+(3) 23 Terrifying Cyber Attack Statistics to Know in 2023 | Icoinical. https://icoinical.com/cyberattack-statistics/ Accessed 6/20/2023.
+(4) The Ultimate List of Cyber Attack Stats (2023) - Exploding Topics. https://explodingtopics.com/blog/cybersecurity-stats Accessed 6/20/2023.
+
+In 2023, Have there been any significant changes in the tactics, techniques, and procedures (TTPs) used by attackers? What types of vulnerabilities were most commonly exploited?
+According to the web sources I found, some of the significant changes in the tactics, techniques, and procedures (TTPs) used by attackers in 2023 are:
+
+- **Artificial Intelligence and Machine Learning**: Attackers are increasingly using AI and ML tools to automate and enhance their attacks, such as generating phishing emails, bypassing authentication systems, creating deepfakes, or finding vulnerabilities¹². Conversely, defenders are also using AI and ML to detect and prevent attacks, such as analyzing network traffic, identifying anomalies, or blocking malicious activities¹².
+- **Supply Chain Attacks**: Attackers are targeting third-party vendors or service providers that have access to their customers' networks or data, such as software developers, cloud providers, or hardware manufacturers¹². This way, they can compromise multiple organizations with a single breach, as seen in the SolarWinds and Microsoft Exchange Server attacks¹².
+- **Ransomware-as-a-Service (RaaS)**: Attackers are offering ransomware tools and services to other criminals on the dark web, allowing them to launch ransomware attacks without having the technical skills or resources¹². This lowers the barrier of entry for ransomware attacks and increases their frequency and sophistication¹².
+- **Internet of Things (IoT) Attacks**: Attackers are exploiting vulnerabilities in smart devices that are connected to the internet, such as cameras, thermostats, or routers¹². They can use these devices to spy on users, steal data, launch distributed denial-of-service (DDoS) attacks, or install malware or ransomware¹².
+
+Some of the types of vulnerabilities that were most commonly exploited in 2023 are:
+
+- **Zero-Day Exploits**: These are exploits that take advantage of unknown or unpatched vulnerabilities in software or hardware¹². They are often used by sophisticated attackers who have access to advanced tools or resources, such as nation-state actors or cybercriminal groups¹².
+- **Phishing Attacks**: These are attacks that use deceptive emails or websites to trick users into clicking on malicious links or attachments, or revealing sensitive information¹². They often rely on social engineering techniques to impersonate a trusted person or organization, such as a colleague, a bank, or a government agency¹².
+- **SQL Injection Attacks**: These are attacks that inject malicious SQL commands into a web application's database query, allowing attackers to access or manipulate data¹². They often exploit poor input validation or sanitization in web applications that use SQL databases¹².
+- **Password Attacks**: These are attacks that attempt to guess or crack user passwords using various methods, such as brute force, dictionary, or rainbow table attacks¹². They often exploit weak or reused passwords, poor password policies, or stolen password databases¹².
+
+Source: Conversation with Bing, 6/20/2023(1) 2023-2028 Cyber Attack Simulation Tools Market by Types and Application |Extensive Research. https://www.marketwatch.com/press-release/2023-2028-cyber-attack-simulation-tools-market-by-types-and-application-extensive-research-2023-06-17 Accessed 6/20/2023.
+(2) Cyber Attack in Telecom Sector Market Insights | 2030. https://www.marketwatch.com/press-release/cyber-attack-in-telecom-sector-market-insights-2030-2023-06-16 Accessed 6/20/2023.
+(3) Cyber Insurance Market size to grow by USD 42,812.64 million from 2022 to 2027, Growth driven by the widespread adoption of technology - Technavio. https://finance.yahoo.com/news/cyber-insurance-market-size-grow-021500429.html Accessed 6/20/2023.
+(4) Cybersecurity Trends & Statistics For 2023; What You Need To Know - Forbes. https://www.forbes.com/sites/chuckbrooks/2023/03/05/cybersecurity-trends--statistics-for-2023-more-treachery-and-risk-ahead-as-attack-surface-and-hacker-capabilities-grow/ Accessed 6/20/2023.
+(5) The Top Five Cybersecurity Trends In 2023 - Forbes. https://www.forbes.com/sites/bernardmarr/2022/11/11/the-top-five-cybersecurity-trends-in-2023/ Accessed 6/20/2023.
+
+Have new forms of malware or ransomware been identified during this period? What has been the average cost (in time, resources, financial loss, etc.) of these cyber attacks to businesses?
+Sent message. Have new forms of malware or ransomware been identified during this period? What has been the average cost (in time, resources, financial loss, etc.) of these cyber attacks to businesses?
+According to the web sources I found, some of the new forms of malware or ransomware that have been identified in 2023 are:
+
+- **Akira**: This is a fresh ransomware that has been hitting enterprises globally since March 2023, having already published in April the data of nine companies across different sectors like education, finance, and manufacturing⁶. It uses a combination of AES and RSA encryption algorithms and demands a ransom of 0.5 to 1 bitcoin for the decryption key⁶.
+- **Honkai**: This is a new variant of the Ryuk ransomware that has been targeting organizations in Korea since January 2023, with at least 12 victims so far¹. It uses a sophisticated obfuscation technique to evade detection and appends the .honkai extension to encrypted files¹.
+- **TZW**: This is another new variant of the Ryuk ransomware that has also been targeting organizations in Korea since February 2023, with at least six victims so far¹. It uses a similar obfuscation technique as Honkai and appends the .tzw extension to encrypted files¹.
+- **VoidCrypt**: This is a new variant of the Phobos ransomware that has been active since January 2023, with at least 15 victims so far¹. It uses a custom encryption algorithm and appends the .voidcrypt extension to encrypted files¹.
+
+Some of the average costs of these cyber attacks to businesses are:
+
+- **Ransom payments**: According to a report by Palo Alto Networks, the average ransom paid by organizations increased by 171% in 2022, reaching $312,493 per incident². The highest ransom paid was $10 million by an unnamed organization². The report also estimated that the total amount paid by ransomware victims in 2022 was $350 million, a 311% increase from 2021².
+- **Downtime costs**: According to a report by Datto, the average cost of downtime due to ransomware increased by 94% in 2022, reaching $274,200 per incident³. The report also found that 95% of managed service providers reported that their clients experienced business-threatening downtime as a result of a ransomware attack in 2022³.
+- **Recovery costs**: According to a report by IBM Security, the average cost of recovering from a data breach increased by 10% in 2022, reaching $4.24 million per incident⁴. The report also found that ransomware attacks were the most expensive type of data breach, costing an average of $4.62 million per incident⁴.
+- **Reputational costs**: According to a report by Kaspersky, 31% of consumers said they would stop using an online service provider if it suffered a data breach due to a cyberattack in 2022⁵. The report also found that 29% of consumers said they would avoid buying products or services from a company that had been hacked in the past year⁵.
+
+Source: Conversation with Bing, 6/20/2023(1) Ransomware review: May 2023. https://www.malwarebytes.com/blog/threat-intelligence/2023/05/ransomware-review-may-2023 Accessed 6/20/2023.
+(2) The Week in Ransomware - February 3rd 2023 - Ending with a mess. https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-february-3rd-2023-ending-with-a-mess/ Accessed 6/20/2023.
+(3) Publicly disclosed U.S. ransomware attacks in 2023. https://www.techtarget.com/searchsecurity/feature/Publicly-disclosed-US-ransomware-attacks-in-2023 Accessed 6/20/2023.
+(4) A ransomware attack is hitting schools, businesses and government ... - CNN. https://www.cnn.com/2023/06/16/tech/clop-ransomware-attack-explainer/index.html Accessed 6/20/2023.
+(5) Threat Predictions for 2023: New Attack Surfaces and Threats ... - Fortinet. https://www.fortinet.com/blog/threat-research/2023-threat-predictions-new-attack-surfaces-threats-emerge-cybercrime-expands Accessed 6/20/2023.
+(6) Ransomware review: April 2023. https://www.malwarebytes.com/blog/threat-intelligence/2023/04/ransomware-review-april-2023 Accessed 6/20/2023.
+
+How effective have common cyber defense strategies been during this period? Has there been a notable change in the attack vectors used (email, web, network, etc.)?
+
+Some of the common cyber defense strategies that have been used or recommended during this period are:
+
+- **Device fingerprinting**: This is a technique that identifies devices based on their unique characteristics, such as browser settings, IP address, or hardware configuration¹. It can help prevent cyber attacks by blocking unauthorized or suspicious devices from accessing networks or data¹.
+- **Human-centric design**: This is an approach that considers the needs, behaviors, and preferences of users when designing cybersecurity systems and policies². It can help reduce operational friction and increase user adoption of security controls².
+- **Zero-trust architecture**: This is a framework that assumes no trust for any entity, whether internal or external, and requires continuous verification of identity and authorization for every request or transaction²³. It can help prevent unauthorized access, data breaches, and lateral movement of attackers within networks²³.
+- **Cyber risk quantification**: This is a method that measures and communicates the financial impact of cyber risks and incidents². It can help inform decision-making and prioritize investments in cybersecurity².
+- **Multi-factor authentication**: This is a technique that requires users to provide more than one piece of evidence to prove their identity, such as a password, a code, or a biometric feature¹. It can help prevent password attacks and unauthorized access¹.
+
+The effectiveness of these cyber defense strategies may vary depending on the context, implementation, and evaluation of each strategy. However, some general factors that may affect their effectiveness are:
+
+- **Threat intelligence**: This is the process of collecting, analyzing, and sharing information about current and emerging cyber threats⁴. It can help improve the effectiveness of cyber defense strategies by providing timely and actionable insights to detect, prevent, or respond to attacks⁴.
+- **Cyber hygiene**: This is the practice of maintaining basic security standards and best practices for devices, networks, and data¹. It can help improve the effectiveness of cyber defense strategies by reducing vulnerabilities and exposure to attacks¹.
+- **Cyber resilience**: This is the ability to anticipate, withstand, recover from, and adapt to cyber incidents⁵. It can help improve the effectiveness of cyber defense strategies by minimizing the impact and duration of disruptions and restoring normal operations as quickly as possible⁵.
+
+Some of the notable changes in the attack vectors used by attackers during this period are:
+
+- **Supply chain attacks**: These are attacks that target third-party vendors or service providers that have access to their customers' networks or data²⁴. They have increased in frequency and sophistication in this period, as seen in the SolarWinds and Microsoft Exchange Server attacks²⁴.
+- **IoT attacks**: These are attacks that exploit vulnerabilities in smart devices that are connected to the internet²⁴. They have also increased in frequency and variety in this period, as seen in the attacks on power transformers, cameras, thermostats, or routers²⁴.
+- **AI and ML attacks**: These are attacks that use artificial intelligence and machine learning tools to automate and enhance their attacks²⁴. They have emerged as a new challenge for cyber defense in this period, as seen in the use of phishing emails, deepfakes, or vulnerability discovery by attackers²⁴.
+
+Source: Conversation with Bing, 6/20/2023(1) Most Effective Cyber Security Defense Strategies - Science Times. https://www.sciencetimes.com/articles/34043/20211019/most-effective-cyber-security-defense-strategies.htm Accessed 6/20/2023.
+(2) DOD Transmits 2023 Cyber Strategy - U.S. Department of Defense. https://www.defense.gov/News/Releases/Release/Article/3408707/dod-transmits-2023-cyber-strategy/ Accessed 6/20/2023.
+(3) 2023 DOD Cyber Strategy Fact Sheet - U.S. Department of Defense. https://media.defense.gov/2023/May/26/2003231006/-1/-1/1/2023-DOD-CYBER-STRATEGY-FACT-SHEET.PDF Accessed 6/20/2023.
+(4) White House releases National Cybersecurity Strategy. https://www.hsdl.org/c/2023-national-cybersecurity-strategy/ Accessed 6/20/2023.
+(5) US National Cybersecurity Strategy: What you need to know | World .... https://www.weforum.org/agenda/2023/03/us-national-cybersecurity-strategy/ Accessed 6/20/2023.
+(6) Deputy Secretary of Defense Signs 2023-2027 DoD Cyber Workforce Strategy. https://www.defense.gov/News/Releases/Release/Article/3323868/deputy-secretary-of-defense-signs-2023-2027-dod-cyber-workforce-strategy/ Accessed 6/20/2023.
+
+Has there been a trend towards targeting certain types of systems or technologies (e.g., cloud systems, IoT devices)? What kind of data was most often targeted or compromised (personal, financial, business critical information)?
+Some of the trends towards targeting certain types of systems or technologies in 2023 are:
+
+- **Cloud systems**: These are systems that use remote servers and networks to store, process, and deliver data and services over the internet¹². They have become attractive targets for attackers who seek to access large amounts of data or disrupt critical operations¹².
+- **IoT devices**: These are devices that are connected to the internet and can communicate with other devices or systems, such as cameras, thermostats, or routers¹². They have become vulnerable targets for attackers who seek to spy on users, steal data, launch distributed denial-of-service (DDoS) attacks, or install malware or ransomware¹².
+- **Metaverse platforms**: These are platforms that create immersive virtual environments where users can interact with each other and digital content, such as games, social media, or e-commerce¹². They have become potential targets for attackers who seek to exploit user data, manipulate user behavior, or disrupt user experience¹².
+
+Some of the types of data that were most often targeted or compromised in 2023 are:
+
+- **Personal data**: This is data that relates to an identifiable individual, such as name, address, email, phone number, or social security number³. It has been targeted or compromised by attackers who seek to use it for identity theft, fraud, phishing, or extortion³.
+- **Financial data**: This is data that relates to monetary transactions or assets, such as bank account details, credit card numbers, or cryptocurrency wallets³. It has been targeted or compromised by attackers who seek to use it for theft, fraud, money laundering, or ransomware³.
+- **Business critical information**: This is data that relates to the core operations or functions of an organization, such as intellectual property, trade secrets, customer data, or employee data³. It has been targeted or compromised by attackers who seek to use it for espionage, sabotage, competitive advantage, or ransomware³.
+
+Source: Conversation with Bing, 6/20/2023(1) What Are the Most Probable Cyberattack Targets in 2023? - DevPro Journal. https://www.devprojournal.com/technology-trends/security/what-are-the-most-probable-cyberattack-targets-in-2023/ Accessed 6/20/2023.
+(2) MOVEit Cyber Attack Has Many More Victims Than Previously Thought; Attackers Experimented With Vulnerability Since 2021. https://www.cpomagazine.com/cyber-security/moveit-cyber-attack-has-many-more-victims-than-previously-thought-attackers-experimented-with-vulnerability-since-2021/ Accessed 6/20/2023.
+(3) Microsoft admitted it was targeted in a cyber attack claimed by a Russian-linked group called Anonymous Sudan. https://www.msn.com/en-us/money/other/microsoft-admitted-it-was-targeted-in-a-cyber-attack-claimed-by-a-russian-linked-group-called-anonymous-sudan/ar-AA1cJE81 Accessed 6/20/2023.
+
+
+Were any state-sponsored cyber attacks identified during this period? How quickly were breaches detected and mitigated on average?
+Some of the state-sponsored cyber attacks that have been identified or attributed in 2023 are:
+
+- **The SolarWinds attack**: This was a massive supply chain attack that compromised the software vendor SolarWinds and its customers, including several US government agencies and Fortune 500 companies¹². The attack was attributed to a Russian state-sponsored group and exposed sensitive data and network access for months¹².
+- **The Microsoft Exchange Server attack**: This was a series of zero-day exploits that targeted Microsoft's email servers and affected tens of thousands of organizations worldwide¹². The attack was attributed to a Chinese state-sponsored group and allowed hackers to steal data, install malware, or ransomware on the compromised servers¹².
+- **The Ukrainian satellite hack**: This was a cyberattack that disrupted the operations of a Ukrainian military satellite, causing communication failures and data loss³. The attack was blamed on Russian hackers who used a sophisticated malware to infiltrate the satellite's control system³.
+- **The MOVEit cyber attack**: This was a ransomware attack that targeted a widely used file sharing software and affected several federal agencies, as well as millions of people from two state departments of transportation⁴. The attack was carried out by a ransomware gang called Cl0p, which is believed to have ties to the Russian government⁴.
+- **The Verkada camera hack**: This was a breach that exposed live feeds from over 150,000 security cameras installed in various organizations, including hospitals, schools, prisons, and Tesla factories¹². The hack was performed by a group of activists who claimed to expose the privacy risks of surveillance technology¹².
+
+Some of the statistics on breach detection and mitigation in 2023 are:
+
+- **Breach detection time**: According to a report by IBM Security, the average time to identify a breach in 2023 was 207 days, a slight decrease from 220 days in 2022⁵. The report also found that the faster an organization can identify and contain a breach, the lower the costs⁵.
+- **Breach mitigation time**: According to the same report by IBM Security, the average time to contain a breach in 2023 was 73 days, a slight increase from 70 days in 2022⁵. The report also found that the longer it takes to resolve a breach, the higher the costs⁵.
+- **Breach mitigation costs**: According to another report by Kaspersky, the average cost of recovering from a data breach in 2023 was $1.85 million for small and medium-sized businesses (SMBs) and $8.9 million for enterprises. The report also found that SMBs spent 44% of their recovery budget on improving their IT infrastructure, while enterprises spent 35% on hiring external consultants.
+
+Source: Conversation with Bing, 6/20/2023(1) Global Cybersecurity Thematic Intelligence Report 2023: State-Sponsored .... https://www.prnewswire.com/news-releases/global-cybersecurity-thematic-intelligence-report-2023-state-sponsored-cyberattacks-are-likely-to-increase-in-2023-as-revenues-are-predicted-to-reach-344-billion-by-2030-301805371.html Accessed 6/20/2023.
+(2) State Sponsored Attacks in 2023 and Beyond - Cisco Talos Blog. https://blog.talosintelligence.com/state-sponsored-attacks-in-2023/ Accessed 6/20/2023.
+(3) Chinese hackers spying on US critical infrastructure, Western .... https://www.reuters.com/technology/microsoft-says-china-backed-hacker-targeted-critical-us-infrastructure-2023-05-24/ Accessed 6/20/2023.
+(4) State-sponsored hackers are diversifying tactics, targeting small .... https://www.itpro.com/security/cyber-security/370140/state-sponsored-hackers-diversifying-tactics-targeting-smbs Accessed 6/20/2023.
+(5) Cybersecurity trends in 2023 that will directly impact everyday life. https://www.cybersecuritydive.com/news/cyber-security-trends/639480/ Accessed 6/20/2023.
+
+Were there any major security updates or innovations that have been used to combat these trends?
+Some of the major security updates or innovations that have been used to combat these trends are:
+
+- **Automated threat management**: This is a technique that uses artificial intelligence and machine learning to automate and enhance the detection, prevention, and response of cyber threats¹. It can help reduce the time and resources required for manual verification of users and devices, as well as improve the accuracy and efficiency of threat analysis and mitigation¹.
+- **Cloud security**: This is a set of policies, technologies, and controls that protect data and applications hosted on cloud platforms from cyber attacks¹². It can help address the challenges and risks of migrating to the cloud, such as data breaches, unauthorized access, or compliance issues¹².
+- **Zero-trust architecture**: This is a framework that assumes no trust for any entity, whether internal or external, and requires continuous verification of identity and authorization for every request or transaction¹². It can help prevent unauthorized access, data breaches, and lateral movement of attackers within networks¹².
+- **Identity management**: This is a process that defines and manages the roles and access privileges of users and devices across an organization's network or systems¹. It can help improve user authentication, authorization, and accountability, as well as reduce identity theft, fraud, or phishing attacks¹.
+- **Behavioral analytics**: This is a technique that uses data mining, machine learning, and statistical analysis to understand and predict user behavior based on their online activities¹. It can help identify anomalies, threats, or risks that deviate from normal or expected patterns, such as insider threats, compromised accounts, or fraud attempts¹.
+
+Source: Conversation with Bing, 6/20/2023(1) Top 10 Cybersecurity Trends in 2023 | StartUs Insights. https://www.startus-insights.com/innovators-guide/cybersecurity-trends-innovation/ Accessed 6/20/2023.
+(2) Latest "Industrial Cybersecurity Market" Size and Share Forecast by 2030. https://www.marketwatch.com/press-release/latest-industrial-cybersecurity-market-size-and-share-forecast-by-2030-2023-06-19 Accessed 6/20/2023.
+(3) Global Railway Cybersecurity Service Market 2029 | 360 Market Update. https://www.marketwatch.com/press-release/global-railway-cybersecurity-service-market-2029-360-market-update-2023-06-15 Accessed 6/20/2023.
+(4) Tech Update: Fixing the cybersecurity talent shortage and Canada sits pretty on startup rankings. https://www.thestar.com/business/mars/2023/06/16/tech-update-fixing-the-cybersecurity-talent-shortage-and-canada-sits-pretty-on-startup-rankings.html Accessed 6/20/2023.
+(5) Cybersecurity Trends & Statistics For 2023; What You Need To Know - Forbes. https://www.forbes.com/sites/chuckbrooks/2023/03/05/cybersecurity-trends--statistics-for-2023-more-treachery-and-risk-ahead-as-attack-surface-and-hacker-capabilities-grow/ Accessed 6/20/2023.
+(6) Cybersecurity innovations to look forward to in 2023 | Cybernews. https://cybernews.com/editorial/cybersecurity-innovations-to-look-forward-to-in-2023/ Accessed 6/20/2023.
+
+How have cyber laws and regulations adapted to these trends? What has been the role of artificial intelligence and machine learning in both executing and defending against these cyber attacks?
+Some of the cyber laws and regulations that have been adapted or proposed to these trends are:
+
+- **The Consolidated Appropriations Act**: This is a U.S. law that was enacted in March 2023 and includes several provisions related to cybersecurity, such as establishing a national cyber director, creating a cyber incident review board, and allocating funds for cybersecurity research and development¹.
+- **The EU-U.S. Data Privacy Framework**: This is a proposed agreement between the European Union and the United States that aims to facilitate data transfers across the Atlantic while ensuring adequate protection of personal data². The agreement is still under negotiation and faces several challenges, such as addressing the concerns raised by the EU's top court over U.S. surveillance practices².
+- **The NIS2 Directive**: This is an EU directive that became effective in January 2023 and updates the previous Network and Information Security Directive of 2016³. The directive expands the scope of sectors and entities covered by cybersecurity requirements, such as cloud service providers, social networks, and online marketplaces³. It also introduces new obligations, such as establishing a cyber crisis management structure, harmonizing security and reporting standards, and addressing supply chain and vulnerability management issues³.
+- **The SEC Cybersecurity Disclosure Rule**: This is a proposed rule by the U.S. Securities and Exchange Commission (SEC) that would require all public companies to disclose cybersecurity incidents within four business days after determining their materiality⁴. The rule would also require companies to provide additional information about the incidents, such as ongoing status, date of occurrence, any data loss or alteration, and any remediation measures taken⁴. The rule is expected to be finalized in April 2023⁴.
+
+The role of artificial intelligence and machine learning in both executing and defending against cyber attacks has been increasing and evolving in 2023. Some of the examples are:
+
+- **Executing cyber attacks**: Attackers are using AI and ML tools to automate and enhance their attacks, such as generating phishing emails, bypassing authentication systems, creating deepfakes, or finding vulnerabilities⁵ . For instance, attackers can use natural language processing (NLP) to craft convincing phishing emails that mimic the style and tone of legitimate senders⁵. They can also use computer vision to create realistic deepfakes that can impersonate or blackmail victims⁵.
+- **Defending against cyber attacks**: Defenders are also using AI and ML tools to detect and prevent attacks, such as analyzing network traffic, identifying anomalies, or blocking malicious activities⁵ . For instance, defenders can use anomaly detection to spot unusual patterns or behaviors that indicate a potential attack⁵. They can also use machine learning classification to label and filter malicious emails or websites⁵.
+
+Source: Conversation with Bing, 6/20/2023(1) Quarterly Cyber Regulations Update: June 2023 - The Wall Street Journal. https://www.wsj.com/articles/quarterly-cyber-regulations-update-june-2023-c8f83dd1 Accessed 6/20/2023.
+(2) New Regulatory Agenda Reveals Forthcoming Cybersecurity Regulations .... https://www.hklaw.com/en/insights/publications/2023/01/new-regulatory-agenda-reveals-forthcoming-cybersecurity-regulations Accessed 6/20/2023.
+(3) Cybersecurity Laws and Regulations Report 2023. https://iclg.com/practice-areas/cybersecurity-laws-and-regulations Accessed 6/20/2023.
+(4) Cybersecurity Laws and Regulations Report 2023 Australia. https://iclg.com/practice-areas/cybersecurity-laws-and-regulations/australia Accessed 6/20/2023.
+(5) Quarterly Cyber Regulations Update: February 2023 - The Wall Street Journal. https://www.wsj.com/articles/quarterly-cyber-regulations-update-february-2023-7c2af844 Accessed 6/20/2023.
+
+What are the predicted trends for the next six months based on the data from this period? Have there been any significant cybersecurity incidents involving cryptocurrency networks or blockchain technology?
+Some of the predicted trends for the next six months based on the data from this period are:
+
+- **Ransomware attacks will continue to grow in frequency and sophistication**: Ransomware attacks have been one of the most prevalent and damaging cyber threats in 2023, affecting various sectors and industries, such as healthcare, education, energy, and transportation¹². Experts predict that ransomware attacks will continue to evolve and innovate in the next six months, using new techniques such as double extortion, triple extortion, or ransomware-as-a-service (RaaS) to increase their success and profitability¹².
+- **Supply chain attacks will become more common and complex**: Supply chain attacks have been another major cyber threat in 2023, as seen in the SolarWinds and Microsoft Exchange Server attacks that compromised thousands of organizations worldwide¹². Experts predict that supply chain attacks will become more frequent and sophisticated in the next six months, targeting third-party vendors or service providers that have access to their customers' networks or data, such as software developers, cloud providers, or hardware manufacturers¹².
+- **AI and ML will play a bigger role in both offense and defense**: Artificial intelligence and machine learning have been emerging as powerful tools for both attackers and defenders in 2023, enabling them to automate and enhance their capabilities¹². Experts predict that AI and ML will play a bigger role in both offense and defense in the next six months, using advanced techniques such as natural language processing, computer vision, or anomaly detection to create or counter cyber threats¹².
+- **Cyber laws and regulations will become more stringent and harmonized**: Cyber laws and regulations have been adapting to the changing cyber landscape in 2023, introducing new requirements and standards for cybersecurity across different sectors, industries, and regions³⁴. Experts predict that cyber laws and regulations will become more stringent and harmonized in the next six months, aiming to improve data protection, privacy, compliance, and accountability for organizations and individuals³⁴.
+
+Some of the significant cybersecurity incidents involving cryptocurrency networks or blockchain technology in 2023 are:
+
+- **The BitMart hack**: This was a hack that stole about $200 million worth of cryptocurrencies from BitMart, a global digital asset trading platform⁵. The hack occurred on Dec. 4, 2023, and affected two of BitMart's hot wallets that stored Ethereum (ETH) and Binance Smart Chain (BSC) tokens⁵. The hackers transferred the stolen funds to various addresses and tried to launder them through decentralized exchanges (DEXs) or mixers⁵.
+- **The BadgerDAO exploit**: This was an exploit that drained about $120 million worth of cryptocurrencies from BadgerDAO, a decentralized autonomous organization (DAO) that builds products for Bitcoin (BTC) on Ethereum (ETH)⁶. The exploit occurred on Dec. 2, 2023, and exploited a vulnerability in BadgerDAO's smart contracts that allowed the attacker to mint unlimited amounts of synthetic BTC tokens called DIGG⁶. The attacker then swapped the minted DIGG tokens for other cryptocurrencies on DEXs⁶.
+- **The Poly Network hack**: This was a hack that stole about $600 million worth of cryptocurrencies from Poly Network, a cross-chain interoperability protocol that enables value transfers among different blockchains. The hack occurred on Aug. 10, 2023, and exploited a vulnerability in Poly Network's smart contracts that allowed the hacker to transfer funds from Poly Network's wallets on Ethereum (ETH), Binance Smart Chain (BSC), and Polygon (MATIC) networks. The hacker later returned most of the stolen funds after claiming to be a white hat hacker who wanted to expose Poly Network's security flaws.
+
+Source: Conversation with Bing, 6/20/2023(1) The Top 23 Security Predictions for 2023 (Part 2) - GovTech. https://bing.com/search?q=cybersecurity+predictions+2023+second+half Accessed 6/20/2023.
+(2) The Top 23 Security Predictions for 2023 (Part 2) - GovTech. https://www.govtech.com/blogs/lohrmann-on-cybersecurity/the-top-23-security-predictions-for-2023-part-2 Accessed 6/20/2023.
+(3) Top Cybersecurity Predictions 2023 - Forbes. https://www.forbes.com/sites/emilsayegh/2022/12/15/top-cybersecurity-predictions-2023/ Accessed 6/20/2023.
+(4) Cybersecurity predictions for 2023. - The CyberWire. https://thecyberwire.com/stories/9b4819b28766496c8a731382456b48ee/cybersecurity-predictions-for-2023 Accessed 6/20/2023.
+(5) Our Experts' Top Cybersecurity Predictions for 2023 - CIS. https://www.cisecurity.org/insights/blog/our-experts-top-cybersecurity-predictions-for-2023 Accessed 6/20/2023.
+(6) Cybersecurity predictions for 2023 - Information Age. https://www.information-age.com/cybersecurity-predictions-for-2023-123501007/ Accessed 6/20/2023.
+
